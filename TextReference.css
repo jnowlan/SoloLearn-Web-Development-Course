@@ -1,0 +1,60 @@
+h1{ color: red;
+    font-size: 30pt;
+    text-shadow: 5px 2px 4px grey;}
+
+h2 {color: #0000FF;}
+
+p.example {color: rgb(255,0,0);}
+
+#test{color:green}
+
+/*just a comment*/
+
+.bigT{font-size: 200%}  /*font size adjusted by %*/
+
+.small{font-size: small;} /*adjusting font size by keyword*/
+
+.fantasy{font-family: Blippo, fantasy;} /*tries for blippo, if not does generic fantasy*/
+
+.cursive{font-family: Florence, cursive;}
+
+.bold{font-weight: bolder;
+text-indent: 60px}
+
+span.baseline {
+    vertical-align: baseline;
+}
+span.sub {
+    vertical-align: sub;
+}
+span.super {
+    vertical-align: super;
+}
+span.pixel {
+    vertical-align: -10px;
+}
+
+p.inherit {
+    text-decoration: inherit;
+ }
+ p.overline {
+    text-decoration: overline;
+ }
+ p.underline {
+    text-decoration: underline;
+ }
+ p.line-through {
+    text-decoration: line-through;
+ }
+
+ p.capitalize {
+    text-transform: capitalize;
+ }
+
+ p.uppercase {
+    text-transform: uppercase;
+ }
+
+
+
+
